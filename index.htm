@@ -2,16 +2,17 @@
 	<head>
 	    <script src="lib/react.min.js"></script>
 	    <script src="lib/JSXTransformer.js"></script>
+	    <script src="lib/jquery-1.10.0.min.js"></script>
 	</head>
 	<body>
 		<div id="content"></div>
-
+		
+		<script type="text/jsx" src="components/missionItem.jsx"></script>
 		<script type="text/jsx" src="components/missionList.jsx"></script>
 
 		<script type="text/jsx">
-			/** @jsx React.DOM */
 			React.renderComponent(
-		  		<MissionList />,
+		  		<MissionList url="api/missions.json" interval={5000} />,
 				document.getElementById('content')
 			);
     	</script>
