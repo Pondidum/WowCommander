@@ -31,9 +31,9 @@ var MissionList = React.createClass({
 		});
 
 		return (
-			<div className="missionList">
+			<ul className="missionList">
 				{missions}
-			</div>
+			</ul>
 		);
 	}
 });

@@ -1,9 +1,9 @@
 var MissionItem = React.createClass({
 	render: function() {
 		return (
-			<div>
+			<li>
 				{this.props.data.name}
-			</div>
+			</li>
 		);
 	}
 });
