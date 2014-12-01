@@ -31,7 +31,7 @@ var MissionList = React.createClass({
 		});
 
 		return (
-			<ul className="missionList">
+			<ul className="missionList no-bullet">
 				{missions}
 			</ul>
 		);

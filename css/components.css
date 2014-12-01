@@ -1,0 +1,16 @@
+
+/* missionItem */
+
+.missionItem {
+	height: 4em;
+	border: 1px solid #000;
+}
+
+.missionItem .name {
+}
+.missionItem .duration {
+}
+
+.missionItem .rewards {
+	float: right;
+}
