@@ -1,0 +1,421 @@
+[
+	{
+		"cost": "15",
+		"description": "With infernals and felguard invading Talador, the rest of the Burning Legion can't be far behind. Defeat them, and try to find their source.",
+		"duration": "8 hr",
+		"durationSeconds": "28800",
+		"followers": [],
+		"iLevel": "0",
+		"isRare": "false",
+		"level": "100",
+		"locPrefix": "GarrMissionLocation-Talador",
+		"location": "Talador",
+		"missionID": "113",
+		"name": "Burning Legion Vanguard",
+		"numFollowers": "3",
+		"numRewards": "1",
+		"rewards": [
+			{
+				"id": "248",
+				"itemID": "114057",
+				"quantity": "1"
+			}
+		],
+		"state": "-2",
+		"type": "Combat",
+		"typeAtlas": "GarrMission_MissionIcon-Combat"
+	},
+	{
+		"cost": "10",
+		"description": "Gronnlings continue to interrupt our efforts to expand into Gorgrond. We need to thin their numbers if we wish to gain a foothold.",
+		"duration": "30 min",
+		"durationSeconds": "1800",
+		"followers": [],
+		"iLevel": "0",
+		"isRare": "false",
+		"level": "93",
+		"locPrefix": "GarrMissionLocation-Gorgrond",
+		"location": "Gorgrond",
+		"missionID": "151",
+		"name": "Nuisance Gronnling",
+		"numFollowers": "1",
+		"numRewards": "1",
+		"rewards": [
+			{
+				"id": "455",
+				"followerXP": "400",
+				"icon": "Interface\\Icons\\XPBonus_Icon",
+				"name": "+400 XP",
+				"title": "Bonus Follower XP",
+				"tooltip": "+400 XP"
+			}
+		],
+		"state": "-2",
+		"type": "Combat",
+		"typeAtlas": "GarrMission_MissionIcon-Combat"
+	},
+	{
+		"cost": "10",
+		"description": "Shattered Hand orcs embrace pain, for they say it strengthens them. Make them very strong. Then very dead.",
+		"duration": "1 hr 30 min",
+		"durationSeconds": "5400",
+		"followers": [],
+		"iLevel": "0",
+		"isRare": "false",
+		"level": "96",
+		"locPrefix": "GarrMissionLocation-SpiresofArak",
+		"location": "Spires of Arak",
+		"missionID": "159",
+		"name": "Hurts So Good",
+		"numFollowers": "1",
+		"numRewards": "1",
+		"rewards": [
+			{
+				"id": "497",
+				"followerXP": "700",
+				"icon": "Interface\\Icons\\XPBonus_Icon",
+				"name": "+700 XP",
+				"title": "Bonus Follower XP",
+				"tooltip": "+700 XP"
+			}
+		],
+		"state": "-2",
+		"type": "Combat",
+		"typeAtlas": "GarrMission_MissionIcon-Combat"
+	},
+	{
+		"cost": "20",
+		"description": "'the iron horde have built a harbor in gorgrond that they call the iron docks. show our enemy how fragile their vaunted \"iron\" truly is.'",
+		"duration": "8 hr",
+		"durationSeconds": "28800",
+		"followers": [],
+		"iLevel": "615",
+		"isRare": "false",
+		"level": "100",
+		"locPrefix": "GarrMissionLocation-Gorgrond",
+		"location": "Iron Docks",
+		"missionID": "247",
+		"name": "Pier Pressure",
+		"numFollowers": "3",
+		"numRewards": "1",
+		"rewards": [
+			{
+				"id": "643",
+				"itemID": "114110",
+				"quantity": "1"
+			}
+		],
+		"state": "-2",
+		"type": "Combat",
+		"typeAtlas": "GarrMission_MissionIcon-Combat"
+	},
+	{
+		"cost": "20",
+		"description": "The Bloodmaul use slave labor to fuel their efforts. If we liberate the miners, we'll disrupt their operations. Textbook win-win situation.",
+		"duration": "8 hr",
+		"durationSeconds": "28800",
+		"followers": [],
+		"iLevel": "615",
+		"isRare": "false",
+		"level": "100",
+		"locPrefix": "GarrMissionLocation-FrostfireRidge",
+		"location": "Bloodmaul Slag Mines",
+		"missionID": "251",
+		"name": "Miner Difficulties",
+		"numFollowers": "3",
+		"numRewards": "1",
+		"rewards": [
+			{
+				"id": "627",
+				"itemID": "114071",
+				"quantity": "1"
+			}
+		],
+		"state": "-2",
+		"type": "Combat",
+		"typeAtlas": "GarrMission_MissionIcon-Combat"
+	},
+	{
+		"cost": "20",
+		"description": "Two words: Orcish engineering.  Even odds their rail system will take care of itself, but let's stack the odds in our favor.",
+		"duration": "8 hr",
+		"durationSeconds": "28800",
+		"followers": [],
+		"iLevel": "615",
+		"isRare": "false",
+		"level": "100",
+		"locPrefix": "GarrMissionLocation-Gorgrond",
+		"location": "Grimrail Depot",
+		"missionID": "252",
+		"name": "Off the Rails",
+		"numFollowers": "3",
+		"numRewards": "1",
+		"rewards": [
+			{
+				"id": "640",
+				"itemID": "114078",
+				"quantity": "1"
+			}
+		],
+		"state": "-2",
+		"type": "Combat",
+		"typeAtlas": "GarrMission_MissionIcon-Combat"
+	},
+	{
+		"cost": "20",
+		"description": "The spirits of the burial grounds are restless. Seek their knowledge and their power to end Ner'zhul's scheming once and for all.",
+		"duration": "8 hr",
+		"durationSeconds": "28800",
+		"followers": [],
+		"iLevel": "630",
+		"isRare": "false",
+		"level": "100",
+		"locPrefix": "GarrMissionLocation-ShadowmoonValley",
+		"location": "Shadowmoon Burial Grounds",
+		"missionID": "305",
+		"name": "Ghost Wranglers",
+		"numFollowers": "3",
+		"numRewards": "1",
+		"rewards": [
+			{
+				"id": "671",
+				"currencyID": "0",
+				"icon": "Interface\\Icons\\inv_misc_coin_01",
+				"quantity": "1000000",
+				"title": "Money Reward"
+			}
+		],
+		"state": "-2",
+		"type": "Combat",
+		"typeAtlas": "GarrMission_MissionIcon-Combat"
+	},
+	{
+		"cost": "20",
+		"description": "Coldtusk the boar continues to roam the shivering trench, and clearly we can't rely on the ravagers to take care of him.",
+		"duration": "10 hr",
+		"durationSeconds": "36000",
+		"followers": [],
+		"iLevel": "0",
+		"isRare": "false",
+		"level": "90",
+		"locPrefix": "GarrMissionLocation-FrostfireRidge",
+		"location": "Frostfire Ridge",
+		"missionID": "366",
+		"name": "Tusks Like Icicles",
+		"numFollowers": "3",
+		"numRewards": "1",
+		"rewards": [
+			{
+				"id": "769",
+				"followerXP": "200",
+				"icon": "Interface\\Icons\\XPBonus_Icon",
+				"name": "+200 XP",
+				"title": "Bonus Follower XP",
+				"tooltip": "+200 XP"
+			}
+		],
+		"state": "-2",
+		"type": "Combat",
+		"typeAtlas": "GarrMission_MissionIcon-Combat"
+	},
+	{
+		"cost": "10",
+		"description": "The Pale are twisted, cowardly wretches, but even scavengers can be deadly in sufficient numbers. Still, that's easily solved, isn't it?",
+		"duration": "45 min",
+		"durationSeconds": "2700",
+		"followers": [],
+		"iLevel": "0",
+		"isRare": "false",
+		"level": "96",
+		"locPrefix": "GarrMissionLocation-SpiresofArak",
+		"location": "Spires of Arak",
+		"missionID": "160",
+		"name": "Crush the Pale",
+		"numFollowers": "2",
+		"numRewards": "1",
+		"rewards": [
+			{
+				"id": "500",
+				"followerXP": "700",
+				"icon": "Interface\\Icons\\XPBonus_Icon",
+				"name": "+700 XP",
+				"title": "Bonus Follower XP",
+				"tooltip": "+700 XP"
+			}
+		],
+		"state": "-2",
+		"type": "Combat",
+		"typeAtlas": "GarrMission_MissionIcon-Combat"
+	},
+	{
+		"cost": "0",
+		"description": "War has ravaged the region's plant life, and the clefthoof don't have enough to eat. We should thin out their numbers before they starve.",
+		"duration": "1 hr 30 min",
+		"durationSeconds": "5400",
+		"followers": [],
+		"iLevel": "0",
+		"isRare": "false",
+		"level": "98",
+		"locPrefix": "GarrMissionLocation-Nagrand",
+		"location": "Nagrand",
+		"missionID": "193",
+		"name": "Mercy Killing",
+		"numFollowers": "1",
+		"numRewards": "1",
+		"rewards": [
+			{
+				"id": "536",
+				"currencyID": "824",
+				"icon": "Interface\\Icons\\inv_garrison_resource",
+				"quantity": "46",
+				"title": "Currency Reward"
+			}
+		],
+		"state": "-2",
+		"type": "Combat",
+		"typeAtlas": "GarrMission_MissionIcon-Combat"
+	},
+	{
+		"cost": "10",
+		"description": "The Iron Horde's shredders are laying waste to Talador's forests. Bastards. If someone's doing that, it should be our forces.",
+		"duration": "45 min",
+		"durationSeconds": "2700",
+		"followers": [],
+		"iLevel": "0",
+		"isRare": "false",
+		"level": "95",
+		"locPrefix": "GarrMissionLocation-Talador",
+		"location": "Talador",
+		"missionID": "178",
+		"name": "Shreddercide",
+		"numFollowers": "1",
+		"numRewards": "1",
+		"rewards": [
+			{
+				"id": "494",
+				"currencyID": "0",
+				"icon": "Interface\\Icons\\inv_misc_coin_01",
+				"quantity": "375000",
+				"title": "Money Reward"
+			}
+		],
+		"state": "-2",
+		"type": "Combat",
+		"typeAtlas": "GarrMission_MissionIcon-Combat"
+	},
+	{
+		"cost": "10",
+		"description": "Elementals are plentiful in Frostfire Ridge. Goren love eating them, and whatever the goren eat, they inherit its powers. Not good.",
+		"duration": "30 min",
+		"durationSeconds": "1800",
+		"followers": [],
+		"iLevel": "0",
+		"isRare": "false",
+		"level": "90",
+		"locPrefix": "GarrMissionLocation-FrostfireRidge",
+		"location": "Frostfire Ridge",
+		"missionID": "139",
+		"name": "Frosty and Delicious",
+		"numFollowers": "1",
+		"numRewards": "1",
+		"rewards": [
+			{
+				"id": "335",
+				"followerXP": "100",
+				"icon": "Interface\\Icons\\XPBonus_Icon",
+				"name": "+100 XP",
+				"title": "Bonus Follower XP",
+				"tooltip": "+100 XP"
+			}
+		],
+		"state": "-2",
+		"type": "Combat",
+		"typeAtlas": "GarrMission_MissionIcon-Combat"
+	},
+	{
+		"cost": "10",
+		"description": "The Thunderlord orcs are growing bold: their scouts follow Horde parties with little stealth or fear. Such arrogance deserves a response.",
+		"duration": "30 min",
+		"durationSeconds": "1800",
+		"followers": [],
+		"iLevel": "0",
+		"isRare": "false",
+		"level": "90",
+		"locPrefix": "GarrMissionLocation-FrostfireRidge",
+		"location": "Frostfire Ridge",
+		"missionID": "172",
+		"name": "The Observer Effect",
+		"numFollowers": "1",
+		"numRewards": "1",
+		"rewards": [
+			{
+				"id": "344",
+				"currencyID": "0",
+				"icon": "Interface\\Icons\\inv_misc_coin_01",
+				"quantity": "250000",
+				"title": "Money Reward"
+			}
+		],
+		"state": "-2",
+		"type": "Combat",
+		"typeAtlas": "GarrMission_MissionIcon-Combat"
+	},
+	{
+		"cost": "10",
+		"description": "Scouting reports indicate some substandard adventurers are trapped in Deathweb Hollow.  I suppose we should lend a hand.",
+		"duration": "45 min",
+		"durationSeconds": "2700",
+		"followers": [],
+		"iLevel": "0",
+		"isRare": "false",
+		"level": "95",
+		"locPrefix": "GarrMissionLocation-Talador",
+		"location": "Talador",
+		"missionID": "231",
+		"name": "Hapless Heroes",
+		"numFollowers": "2",
+		"numRewards": "1",
+		"rewards": [
+			{
+				"id": "592",
+				"followerXP": "900",
+				"icon": "Interface\\Icons\\XPBonus_Icon",
+				"name": "+900 XP",
+				"title": "Bonus Follower XP",
+				"tooltip": "+900 XP"
+			}
+		],
+		"state": "-2",
+		"type": "Patrol",
+		"typeAtlas": "GarrMission_MissionIcon-Patrol"
+	},
+	{
+		"cost": "10",
+		"description": "Lately the plains have been even more bitterly cold than usual. Find out what's causing this weather before it starts costing lives.",
+		"duration": "30 min",
+		"durationSeconds": "1800",
+		"followers": [],
+		"iLevel": "0",
+		"isRare": "false",
+		"level": "90",
+		"locPrefix": "GarrMissionLocation-FrostfireRidge",
+		"location": "Frostfire Ridge",
+		"missionID": "138",
+		"name": "A Bit Nippy",
+		"numFollowers": "1",
+		"numRewards": "1",
+		"rewards": [
+			{
+				"id": "332",
+				"followerXP": "100",
+				"icon": "Interface\\Icons\\XPBonus_Icon",
+				"name": "+100 XP",
+				"title": "Bonus Follower XP",
+				"tooltip": "+100 XP"
+			}
+		],
+		"state": "-2",
+		"type": "Combat",
+		"typeAtlas": "GarrMission_MissionIcon-Combat"
+	}
+]
