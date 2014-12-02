@@ -13,6 +13,10 @@ var MissionList = React.createClass({
 		});
 	},
 
+	handleClick: function(index) {
+		console.log("handleClick", index)
+	},
+
 	getInitialState: function() {
 		return { missions: [] };
 	},
@@ -24,15 +28,16 @@ var MissionList = React.createClass({
 
 	render: function() {
 
-		var missions = this.state.missions.map(function(mission) {
+		var items = this.state.missions.map(function(mission, i) {
+			var boundClick = this.handleClick.bind(this, mission.missionID);
 			return (
-				<MissionItem key={mission.id} data={mission} />
+				<MissionItem key={mission.missionID} data={mission} onClick={boundClick} />
 			);
-		});
+		}, this);
 
 		return (
 			<ul className="missionList no-bullet">
-				{missions}
+				{items}
 			</ul>
 		);
 	}
