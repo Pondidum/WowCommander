@@ -2,15 +2,33 @@
 /* missionItem */
 
 .missionItem {
-	height: 4em;
+	height: 5em;
 	border: 1px solid #000;
 }
 
-.missionItem .name {
+.missionItem div {
+	float: left;
 }
-.missionItem .duration {
+
+.missionItem div .name {
+}
+
+.missionItem div .level {
+}
+
+.missionItem div .ilvl {
+}
+
+.missionItem div .duration {
+	display: block;
 }
 
 .missionItem .rewards {
 	float: right;
+	width: 3em;
+	height: 3em;
+	border: 1px solid #000;
+	margin-top: 1em;
+	margin-right: 1em;
 }
+
