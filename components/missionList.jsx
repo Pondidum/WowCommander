@@ -14,8 +14,10 @@ var MissionList = React.createClass({
 	},
 
 	handleClick: function(id) {
-		console.log("handleClick", id)
-		this.setState({activeMissionID: id})
+
+		var isActive = this.state.activeMissionID === id;
+
+		this.setState({activeMissionID: isActive ? null : id });
 	},
 
 	getInitialState: function() {
