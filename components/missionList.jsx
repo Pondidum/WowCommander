@@ -1,5 +1,5 @@
 var MissionList = React.createClass({
-	
+
 	loadFromServer: function() {
 		$.ajax({
 			url: this.props.url,
@@ -13,12 +13,16 @@ var MissionList = React.createClass({
 		});
 	},
 
-	handleClick: function(index) {
-		console.log("handleClick", index)
+	handleClick: function(id) {
+		console.log("handleClick", id)
+		this.setState({activeMissionID: id})
 	},
 
 	getInitialState: function() {
-		return { missions: [] };
+		return {
+			activeMissionID: null,
+			missions: []
+		};
 	},
 
 	componentDidMount: function() {
@@ -31,7 +35,7 @@ var MissionList = React.createClass({
 		var items = this.state.missions.map(function(mission, i) {
 			var boundClick = this.handleClick.bind(this, mission.missionID);
 			return (
-				<MissionItem key={mission.missionID} data={mission} onClick={boundClick} />
+				<MissionItem key={mission.missionID} data={mission} active={this.state.activeMissionID} onClick={boundClick} />
 			);
 		}, this);
 

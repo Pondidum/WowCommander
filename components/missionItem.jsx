@@ -8,6 +8,8 @@ var MissionItem = React.createClass({
 			);
 		});
 
+		var isActive = (this.props.active === mission.missionID);
+
 		return (
 			<li>
 				<div className="missionItem" onClick={this.props.onClick}>
@@ -19,6 +21,7 @@ var MissionItem = React.createClass({
 					</div>
 					<ul className="rewards">{rewards}</ul>
 				</div>
+				{ isActive ? <span>Details</span> : null }
 			</li>
 		);
 	}
