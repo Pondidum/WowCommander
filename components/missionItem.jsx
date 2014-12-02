@@ -21,7 +21,7 @@ var MissionItem = React.createClass({
 					</div>
 					<ul className="rewards">{rewards}</ul>
 				</div>
-				{ isActive ? <span>Details</span> : null }
+				{ isActive ? <MissionDetails mission={mission} /> : null }
 			</li>
 		);
 	}
