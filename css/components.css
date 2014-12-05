@@ -32,18 +32,18 @@
 	margin-right: 1em;
 }
 
-.example-enter,
-.example-leave {
-  -webkit-transition: all .25s;
-  transition: all .25s;
+.missionDetails-enter,
+.missionDetails-leave {
+	-webkit-transition: all .25s;
+	transition: all .25s;
 }
 
-.example-enter,
-.example-leave.example-leave-active {
-  opacity: 0.01;
+.missionDetails-enter,
+.missionDetails-leave.missionDetails-leave-active {
+	opacity: 0.01;
 }
 
-.example-enter.example-enter-active,
-.example-leave {
-  opacity: 1;
+.missionDetails-enter.missionDetails-enter-active,
+.missionDetails-leave {
+	opacity: 1;
 }

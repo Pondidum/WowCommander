@@ -23,7 +23,7 @@ var MissionItem = React.createClass({
 					</div>
 					<ul className="rewards">{rewards}</ul>
 				</div>
-				<CSSTransitionGroup transitionName="example">
+				<CSSTransitionGroup transitionName="missionDetails">
 					{ isActive ? <MissionDetails mission={mission} /> : null }
 				</CSSTransitionGroup>
 			</li>
