@@ -43,22 +43,7 @@
   opacity: 0.01;
 }
 
-.example-leave.example-leave-active {
-  margin-left: -128px;
-}
-
-.example-enter {
-  margin-left: 128px;
-}
-
 .example-enter.example-enter-active,
 .example-leave {
-  margin-left: 0;
   opacity: 1;
-}
-
-.item {
-	
-  -webkit-transition: all .25s; /* TODO: make this a move animation */
-  transition: all .25s; /* TODO: make this a move animation */
 }
