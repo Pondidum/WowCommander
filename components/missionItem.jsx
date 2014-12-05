@@ -1,3 +1,5 @@
+var CSSTransitionGroup = React.addons.CSSTransitionGroup;
+
 var MissionItem = React.createClass({
 	render: function() {
 
@@ -21,7 +23,9 @@ var MissionItem = React.createClass({
 					</div>
 					<ul className="rewards">{rewards}</ul>
 				</div>
-				{ isActive ? <MissionDetails mission={mission} /> : null }
+				<CSSTransitionGroup transitionName="example">
+					{ isActive ? <MissionDetails mission={mission} /> : null }
+				</CSSTransitionGroup>
 			</li>
 		);
 	}

@@ -1,11 +1,10 @@
-var ReactCSSTransitionGroup = React.addons.CSSTransitionGroup;
-
 var MissionDetails = React.createClass({
 	render: function() {
+
+		var mission = this.props.mission;
+
 		return (
-			<ReactCSSTransitionGroup transitionName="example">
-				<span>Details of {this.props.mission.name}</span>
-			</ReactCSSTransitionGroup>
+			<span className="item" key={mission.missionID}>Details of {mission.name}</span>
 		);
 	}
 });
